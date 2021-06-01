@@ -1,12 +1,11 @@
 Rails.application.routes.draw do
-
   namespace :admin do
-      resources :orders do
-        member do
-          put '/:event', to: 'orders#transit_state'
-        end
+    resources :orders do
+      member do
+        put "/:event", to: "orders#transit_state"
       end
-
-      root to: "orders#index"
     end
+
+    root to: "orders#index"
+  end
 end

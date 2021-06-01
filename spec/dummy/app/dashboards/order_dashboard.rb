@@ -11,7 +11,7 @@ class OrderDashboard < Administrate::BaseDashboard
     name: Field::String,
     state: Field::Aasm,
     created_at: Field::DateTime,
-    updated_at: Field::DateTime,
+    updated_at: Field::DateTime
   }.freeze
 
   # COLLECTION_ATTRIBUTES

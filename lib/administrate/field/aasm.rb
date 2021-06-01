@@ -1,7 +1,7 @@
-require 'administrate'
-require 'administrate/field/base'
-require 'rails'
-require 'aasm'
+require "administrate"
+require "administrate/field/base"
+require "rails"
+require "aasm"
 
 module Administrate
   module Field
