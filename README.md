@@ -1,6 +1,9 @@
 # Administrate::Field::Aasm
 Custom Administrate Field for AASM gem.
 
+## DEMO
+[Try the demo](https://administrate-aasm-prototype.herokuapp.com/admin)
+
 ## Installation
 Add this line to your application's Gemfile:
 
