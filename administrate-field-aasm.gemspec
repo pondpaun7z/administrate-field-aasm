@@ -13,6 +13,12 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
+
   spec.add_dependency "rails"
   spec.add_dependency 'administrate'
+
+  spec.add_development_dependency 'puma'
+  spec.add_development_dependency 'pg', '>= 0.18', '< 2.0'
+  spec.add_development_dependency 'aasm'
+  spec.add_development_dependency 'standardrb'
 end
