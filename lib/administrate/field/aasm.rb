@@ -13,8 +13,8 @@ module Administrate
         data
       end
 
-      def events
-        resource.aasm.events
+      def events(state = "default")
+        resource.aasm(state.to_sym).events
       end
 
       def id
