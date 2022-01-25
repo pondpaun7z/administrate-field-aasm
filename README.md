@@ -1,5 +1,6 @@
 # Administrate::Field::Aasm
 Custom Administrate Field for AASM gem.
+[![Gem Version](https://badge.fury.io/rb/administrate-field-aasm.svg)](https://badge.fury.io/rb/administrate-field-aasm)
 
 ## DEMO
 [Try the demo](https://administrate-aasm-prototype.herokuapp.com/admin)
