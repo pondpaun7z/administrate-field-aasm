@@ -7,9 +7,9 @@
 </div>
 
 <div class="row">
-  <% field.events.each do |event| %>
+  <% field.events(field.attribute).each do |event| %>
     <div class="col-md-2">
-      <%= link_to event.name.to_s.humanize, "/admin/orders/#{field.id}/#{event.name.to_s}", method: :put, data: { confirm: "#{event.name}?"}, class: 'btn btn-success btn-block' %>
+      <%= link_to event.name.to_s.humanize, "/admin/#{controller.controller_name}/#{field.id}/#{event.name.to_s}", method: :put, data: { confirm: "#{event.name}?"}, class: 'btn btn-success btn-block' %>
     </div>
   <% end %>
 </div>
