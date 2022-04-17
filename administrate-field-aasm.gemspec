@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = "administrate-field-aasm"
-  spec.version = "0.1.2"
+  spec.version = "0.1.3"
   spec.authors = ["Theeraphat Jantakat"]
   spec.email = ["pppangpondpp7@gmail.com"]
 

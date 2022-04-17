@@ -14,7 +14,11 @@ module Administrate
       end
 
       def events(state = :default)
-        resource.aasm(state).events
+        if to_s.class.to_s == "String"
+          resource.aasm.events
+        else
+          resource.aasm(state).events
+        end
       end
 
       def id
